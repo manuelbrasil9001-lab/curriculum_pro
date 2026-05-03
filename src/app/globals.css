@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body { background-color: #f1f5f9; }
-
-@media print {
-  body { background-color: white; }
+body {
+  background-color: #f1f5f9;
 }

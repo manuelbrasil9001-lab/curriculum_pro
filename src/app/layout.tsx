@@ -1,15 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Curriculum Profesional - Manuel Brasil",
-  description: "CV generado con Next.js",
+  title: "Manuel Brasil - CV",
+  description: "Curriculum Vitae Profesional",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>{children}</body>
